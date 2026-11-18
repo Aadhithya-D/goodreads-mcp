@@ -1,0 +1,12 @@
+name = "goodreads-mcp"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+preview_urls = false
+
+[vars]
+GR_USER_ID = "111565958"
+
+[[kv_namespaces]]
+binding = "GR_KV"
+id = "5b783f660ff44819b9d35847c456e3a0"
